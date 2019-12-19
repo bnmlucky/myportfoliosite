@@ -87,7 +87,8 @@ class Resume extends Component {
                             skill="React"
                             progress={80}
                         />
-
+                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <h5>You can find my complete resume <a href="https://docs.google.com/document/d/1SlYWCVRsYME35-yvAo2B-eRx8GhSzulqXiNAfmcBtm0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">HERE</a></h5>
                     </Cell>
                 </Grid>
             </div>
