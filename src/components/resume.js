@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
+// import Skills from './skills';
 
 class Resume extends Component {
     render() {
@@ -65,10 +65,17 @@ class Resume extends Component {
                             jobName="QA Engineer at Virtusa (contract position at Google)"
                             jobDescription="Regression and exploratory testing of Google Assistant app on Android and iOS mobile devices"
                         />
+
+                        <Experience
+                            startYear={2017}
+                            endYear={2018}
+                            jobName="QA Engineer"
+                            jobDescription="Functional, regression, exploratory, localization testing of Virtual Office Mobile on Android and iOS devices"
+                        />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
-                        <h2>Skills</h2>
+                        {/* <h2>Skills</h2>
                         <Skills
-                            skill="javascript"
+                            skill="JavaScript"
                             progress={85}
                         />
                         <Skills
@@ -87,7 +94,7 @@ class Resume extends Component {
                             skill="React"
                             progress={80}
                         />
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <hr style={{ borderTop: '3px solid #e22947' }} /> */}
                         <h5>You can find my complete resume <a href="https://docs.google.com/document/d/1SlYWCVRsYME35-yvAo2B-eRx8GhSzulqXiNAfmcBtm0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">HERE</a></h5>
                     </Cell>
                 </Grid>
