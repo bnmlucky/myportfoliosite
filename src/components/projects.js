@@ -74,7 +74,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button href="https://github.com/bnmlucky/bnmlucky.github.io" target="_blank" colored>GitHub</Button>
-                        <Button href="hhttps://bnmlucky.github.io/funnyFortunes/" target="_blank" colored>Live Site</Button>
+                        <Button href="https://bnmlucky.github.io/funnyFortunes/" target="_blank" colored>Live Site</Button>
                     </CardActions>
                     <CardMenu style={{ color: 'fff' }}>
                         <IconButton name="share" />
